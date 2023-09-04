@@ -1,0 +1,14 @@
+.social-links {
+    display: flex;
+    list-style: none;
+}
+
+.social-links__item {
+    width: 45px;
+    height: 45px;
+}
+
+.social-links__img {
+    width: 45px;
+    height: 45px;
+}

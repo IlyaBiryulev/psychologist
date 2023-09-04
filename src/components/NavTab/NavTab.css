@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navtab {
+    width: 350px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navtab__item {
+    padding-right: 10px;
+    cursor: pointer;
+}
