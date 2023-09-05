@@ -5,10 +5,13 @@ function Promo() {
     return (
       <section className='promo'>
         <div className='promo__content'>
-        <h2 className='promo__subtitle'>психолог</h2>
-        <h1 className='promo__title'>Юлия Тимошенко</h1>
+          <div className='promo__wrapper'>
+            <h1 className='promo__subtitle'>Психолог</h1>
+            <h2 className='promo__title'>Юлия Тимошенко</h2>
+            <button className='promo__btn'>Записаться</button>
+          </div>
+          <img className='promo__img' src={Photo} alt="Я" />
         </div>
-        <img className='promo__img' src={Photo} alt="Я" />
       </section>
     );
 }
