@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Gotham-Light.woff) format("woff");
+  src: url(../fonts/Gotham-Light.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Gotham-Book.woff) format("woff");
+  src: url(../fonts/Gotham-Book.woff2) format("woff2");
+}
+
+/* @font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/Inter-Black.woff) format("woff");
+  src: url(../fonts/Inter-Black.woff2) format("woff2");
+}
+ */

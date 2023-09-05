@@ -4,7 +4,7 @@
     background-color: #f5e8d0;
     display: flex;
     justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Helvetica', 'Times New Roman', Times, serif;
     color: #151d35;
 }
 
@@ -34,6 +34,7 @@
 .info-topic__title {
     font-size: 32px;
     font-weight: 500;
+    margin: 0;
 }
 
 .info-topic__text {
