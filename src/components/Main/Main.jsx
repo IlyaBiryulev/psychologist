@@ -2,6 +2,7 @@ import './Main.css';
 import Promo from '../Promo/Promo';
 import About from '../About/About';
 import InfoTopic from '../InfoTopic/InfoTopic';
+import Faq from '../Faq/Faq';
 
 function Main() {
   return (
@@ -9,6 +10,7 @@ function Main() {
         <Promo />
         <InfoTopic />
         <About />
+        <Faq />
     </div>
   );
 }
