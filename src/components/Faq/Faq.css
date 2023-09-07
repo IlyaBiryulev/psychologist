@@ -31,6 +31,6 @@
 }
 
 .faq_accordion {
-    width: 350px;
+    width: 600px;
     grid-area: 1 / 2 / 3 / 3;
 }

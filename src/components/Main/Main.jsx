@@ -5,6 +5,7 @@ import InfoTopic from '../InfoTopic/InfoTopic';
 import Faq from '../Faq/Faq';
 import Services from '../Coast/Services';
 import Reviews from '../Reviews/Reviews';
+import RegisterForm from '../RegisterForm/RegisterForm';
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
         <Faq />
         <Services />
         <Reviews />
+        <RegisterForm />
     </div>
   );
 }

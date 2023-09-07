@@ -7,7 +7,7 @@ function NavTab() {
         <li className='navtab__item'>FAQ</li>
         <li className='navtab__item'>Услуги</li>
         <li className='navtab__item'>Отзывы</li>
-        <li className='navtab__item'>Контакты</li>
+        <li className='navtab__item'>Запись</li>
     </ul>
   );
 }
