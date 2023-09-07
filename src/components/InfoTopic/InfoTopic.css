@@ -1,11 +1,11 @@
 .info-topic {
     width: 100%;
     padding: 100px 0;
-    background-color: #f5e8d0;
+    background-color: #FBF8EF;
     display: flex;
     justify-content: center;
     font-family: 'Helvetica', 'Times New Roman', Times, serif;
-    color: #151d35;
+    color: #000;
 }
 
 .info-topic__list {
@@ -22,7 +22,7 @@
 .info-topic__item {
     width: 100%;
     text-align: center;
-    border-bottom: 2px solid rgba(21, 29, 53, .7);
+    border-bottom: 2px solid #526B4B;
     padding-bottom: 15px;
 }
 

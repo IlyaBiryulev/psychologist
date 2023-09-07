@@ -3,9 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #faf9ef;
+    background-color: #526B4B;
     padding: 50px 0;
-    color: #151d35;
+    color: #FBF8EF;
 }
 
 .about__wrapper {
@@ -13,13 +13,6 @@
     grid-template-columns: minmax(292px, 350px) 350px;
     margin-top: 20px;
     column-gap: 20px;
-}
-
-.about__title {
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 35px;
-    margin: 0;
 }
 
 .about__text {

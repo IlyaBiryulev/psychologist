@@ -3,6 +3,8 @@ import Promo from '../Promo/Promo';
 import About from '../About/About';
 import InfoTopic from '../InfoTopic/InfoTopic';
 import Faq from '../Faq/Faq';
+import Services from '../Coast/Services';
+import Reviews from '../Reviews/Reviews';
 
 function Main() {
   return (
@@ -11,6 +13,8 @@ function Main() {
         <InfoTopic />
         <About />
         <Faq />
+        <Services />
+        <Reviews />
     </div>
   );
 }

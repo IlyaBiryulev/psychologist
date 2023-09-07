@@ -1,10 +1,11 @@
 import './About.css';
-import Photo from '../../image/DSCF9791.jpg'
+import Photo from '../../image/DSCF9791.jpg';
+import SectionMainTitle from '../SectionMainTitle/SectionMainTitle';
 
 function About() {
   return (
     <div className='about'>
-        <h1 className='about__title'>Обо мне</h1>
+      <SectionMainTitle title={'Обо мне'}/> 
         <div className='about__wrapper'>
             <p className='about__text'>
                 Я практикующий психолог (по базовому образованию педагог-психолог, по переквалификации - клинический психолог).

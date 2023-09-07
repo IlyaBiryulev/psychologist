@@ -1,0 +1,59 @@
+.services-item {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, 800px));
+    padding: 20px 10px;
+    margin: 20px 0;
+    background-color: #FBF8EF;
+    background-color: #FBF8EF;
+    color: #000;
+    border-radius: 10px;
+}
+
+.services-item__title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.services-item__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    row-gap: 5px;
+    border-left: 2px solid #526B4B;
+    padding-left: 10px;
+}
+
+.services-item__description {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: justify;
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.services-item__duration {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.services-item__place {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.services-item__enroll-btn {
+    background: transparent;
+    padding: 4px 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 14px;
+    font-weight: 900; 
+    cursor: pointer;
+}
+
+.services-item__coast {
+    font-size: 14px;
+    font-weight: 900;
+}

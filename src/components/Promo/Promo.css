@@ -1,8 +1,8 @@
 .promo {
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(to right, #f5e8d0 53%, #151d35 47%);
-    color: #151d35;
+    background: linear-gradient(to right, #FBF8EF 53%, #526B4B 47%);
+    color: #526B4B;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +43,7 @@
     width: 150px;
     height: 50px;
     background: transparent;
+    color: #526B4B;
     border: 1.25px solid #000;
     border-radius: 3px;
     font-size: 15px;

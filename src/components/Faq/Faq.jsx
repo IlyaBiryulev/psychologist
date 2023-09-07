@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { FaqData } from '../../utils/FaqData';
 import Photo from '../../image/DSCF9885.jpg';
 import Accordion from '../Accordion/Accordion';
-import Diploma from '../Diploma/Diploma';
+import SectionMainTitle from '../SectionMainTitle/SectionMainTitle';
 
 
 function Faq() {
@@ -11,7 +11,7 @@ function Faq() {
 
     return (
     <div className='faq'>
-        <h1 className='faq__title'>FAQ</h1>
+        <SectionMainTitle title={'FAQ'}/>
         <div className='faq__content'>
             <div className='faq__question'>*eсли остались вопросы, можете задать их в любой удобной для Вас социальной сети</div>
             <img className='faq__img' src={Photo} alt="z" />
@@ -26,7 +26,6 @@ function Faq() {
                 )}
             </div>
         </div>
-        {/* <Diploma /> */}
     </div>
   );
 }
