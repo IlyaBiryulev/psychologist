@@ -39,3 +39,17 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 709px) {
+    .reviews__card-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, min-content);
+        column-gap: 0;
+        row-gap: 20px;
+        margin: 15px;
+    }
+
+    .reviews__card:nth-child(2) {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+}

@@ -12,3 +12,9 @@
     width: 30px;
     height: 30px;
 }
+
+/* @media screen and (max-width: 630px) {
+    .social-links {
+        margin-bottom: 100px;
+    }
+} */

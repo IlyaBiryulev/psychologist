@@ -3,7 +3,7 @@ import Promo from '../Promo/Promo';
 import About from '../About/About';
 import InfoTopic from '../InfoTopic/InfoTopic';
 import Faq from '../Faq/Faq';
-import Services from '../Coast/Services';
+import Services from '../Services/Services';
 import Reviews from '../Reviews/Reviews';
 import RegisterForm from '../RegisterForm/RegisterForm';
 

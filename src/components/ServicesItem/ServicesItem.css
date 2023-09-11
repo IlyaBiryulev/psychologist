@@ -57,3 +57,67 @@
     font-size: 17px;
     font-weight: 900;
 }
+
+@media screen and (max-width: 693px) {
+    .services-item__title {
+        font-size: 18px;
+    }
+
+    .services-item__description {
+        font-size: 12px;
+    }
+
+    .services-item__duration {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    
+    .services-item__place {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .services-item__enroll-btn {
+        font-size: 12px;
+    }
+    
+    .services-item__coast {
+        font-size: 14px;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .services-item__title {
+        font-size: 13px;
+    }
+
+    .services-item__description {
+        font-size: 10px;
+    }
+
+    .services-item__duration {
+        font-size: 9px;
+        font-weight: 400;
+    }
+    
+    .services-item__place {
+        font-size: 9px;
+        font-weight: 400;
+    }
+
+    .services-item__enroll-btn {
+        font-size: 10px;
+    }
+    
+    .services-item__coast {
+        font-size: 12px;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 371px) {
+    .services-item__title {
+        font-size: 11px;
+    }
+}

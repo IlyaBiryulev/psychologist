@@ -13,3 +13,9 @@
     padding-bottom: 28px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .section__title {
+    padding-bottom: 15px;
+  }
+}

@@ -1,0 +1,36 @@
+.footer {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FBF8EF;
+    color: #526B4B;
+}
+
+.footer__logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(../../image/service-line.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.footer__copyright {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 442px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

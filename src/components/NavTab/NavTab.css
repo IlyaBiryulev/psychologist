@@ -1,17 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .navtab {
-    width: 390px;
+    width: 370px;
     display: flex;
     list-style: none;
     justify-content: space-between;
     align-items: center;
+    color: #526B4B;
 }
 
 .navtab__item {
-    padding-right: 10px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 630px) {
+    .navtab {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navtab__item {
+        padding-bottom: 20px;
+    }
 }

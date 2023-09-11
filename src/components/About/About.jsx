@@ -2,9 +2,9 @@ import './About.css';
 import Photo from '../../image/DSCF9791.jpg';
 import SectionMainTitle from '../SectionMainTitle/SectionMainTitle';
 
-function About() {
+function About({onAboutRef}) {
   return (
-    <div className='about'>
+    <div className='about' ref={onAboutRef}>
       <SectionMainTitle title={'Обо мне'}/> 
         <div className='about__wrapper'>
             <p className='about__text'>

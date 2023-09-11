@@ -11,18 +11,19 @@
 .register-block__card {
     background-image: url(../../image/micah-hallahan-K2mqEMFsf9k-unsplash.jpg);
     background-size: cover;
-    width: 900px;
+    width: calc(100% - 50px);
     height: 500px;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .register-block__title {
-    padding: 35px 0;
     font-size: 50px;
     font-weight: 600;
+    text-align: center;
 }
 
 .register-block__form {
@@ -49,4 +50,28 @@
     padding: 15px 10px;
     color: #FBF8EF;
     cursor: pointer;
+}
+
+@media screen and (max-width: 609px) {
+    .register-block__title {
+        font-size: 40px;
+    }
+
+    .register-block__input {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 383px) {
+    .register-block__card {
+        width: calc(100% - 20px);
+    }
+
+    .register-block__title {
+        font-size: 40px;
+    }
+
+    .register-block__input {
+        width: 250px;
+    }
 }
