@@ -1,12 +1,13 @@
 .promo {
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(to right, #FBF8EF 53%, #526B4B 47%);
-    color: #526B4B;
+    background-color: #526B4B;
+    /* background: linear-gradient(to right, #FBF8EF 53%, #526B4B 47%); */
+    color: #FBF8EF;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1;
+    overflow: hidden;
 }
 
 .promo__content {
@@ -39,17 +40,17 @@
     width: 150px;
     height: 50px;
     background: transparent;
-    color: #526B4B;
-    border: 1.25px solid #000;
+    color: #FBF8EF;
+    border: 1.25px solid #FBF8EF;
     border-radius: 3px;
     font-size: 15px;
     font-weight: 600;
 }
 
 @media screen and (max-width: 1167px) {
-    .promo {
+    /* .promo {
         background: linear-gradient(to right, #FBF8EF 60%, #526B4B 40%);
-    }
+    } */
 
     .promo__content {
         grid-template-columns: minmax(292px, 500px) 400px;
@@ -101,9 +102,9 @@
 }
 
 @media screen and (max-width: 629px) {
-    .promo {
+    /* .promo {
         background: linear-gradient(to top, #526B4B 61%, #FBF8EF 32%);
-    }
+    } */
 
     .promo__content {
         grid-template-columns: minmax(292px, 400px);

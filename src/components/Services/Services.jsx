@@ -1,23 +1,35 @@
 import './Services.css';
 import SectionMainTitle from '../SectionMainTitle/SectionMainTitle';
-import ServicesItem from '../ServicesItem/ServicesItem';
-import { ServicesData } from '../../utils/ServicesData'; 
+import { MServicesItem } from '../ServicesItem/ServicesItem';
+import { ServicesData } from '../../utils/ServicesData';
+import { motion } from 'framer-motion';
+import { textAnim } from '../../utils/constants';
 
 
 function Services() {
     return (
-    <div className='services' id='services'>
+    <div 
+      className='services' 
+      id='services'
+    >
       <SectionMainTitle title={'Услуги и стоимость'}/>
-      <div className='services__content'>
+      <motion.div  
+        className='services__content'
+        initial='hidden'
+        whileInView='visible'
+        viewport={{amount: 0.3, once: true}}
+      >
         {
           ServicesData.map((item) => 
-            <ServicesItem 
+            <MServicesItem
+              variants={textAnim}
+              custom={item.id}
               card={item}
               key={item.id}
             />
           )
         }
-      </div>
+      </motion.div>
     </div>
   );
 }

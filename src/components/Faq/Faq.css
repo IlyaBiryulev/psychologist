@@ -6,6 +6,7 @@
     align-items: center;
     background-color: #FBF8EF;
     color: #000;
+    scroll-snap-align: start;
 }
 
 .faq__content {

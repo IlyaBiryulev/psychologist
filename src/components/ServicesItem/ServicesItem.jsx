@@ -1,8 +1,10 @@
 import './ServicesItem.css';
+import { forwardRef } from 'react';
+import { motion } from 'framer-motion';
 
-function ServicesItem({card}) {
+export const ServicesItem = forwardRef(({ card }, ref) => {
     return (
-    <div className='services-item'>
+    <div className='services-item' ref={ref}>
         <h3 className='services-item__title'>{card.title}</h3>
         <ul className='services-item__list'>
             <li className='services-item__description'>{card.description}</li>
@@ -13,6 +15,7 @@ function ServicesItem({card}) {
         </ul>
     </div>
   );
-}
+})
 
-export default ServicesItem;
+/* export default ServicesItem; */
+export const MServicesItem = motion(ServicesItem)
