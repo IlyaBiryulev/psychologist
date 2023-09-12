@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/psychologist/static/css/main.95cecfa1.css",
+    "main.js": "/psychologist/static/js/main.2a71fdd5.js",
+    "static/js/787.14a60a1d.chunk.js": "/psychologist/static/js/787.14a60a1d.chunk.js",
+    "static/media/DSCF9791.jpg": "/psychologist/static/media/DSCF9791.df0a2b526882d065bdff.jpg",
+    "static/media/DSCF9843.jpg": "/psychologist/static/media/DSCF9843.ff9d136c683e25004538.jpg",
+    "static/media/DSCF9885.jpg": "/psychologist/static/media/DSCF9885.6011d85e4bc5fb210fd2.jpg",
+    "static/media/micah-hallahan-K2mqEMFsf9k-unsplash.jpg": "/psychologist/static/media/micah-hallahan-K2mqEMFsf9k-unsplash.0f3c4ecd659a27e177c8.jpg",
+    "static/media/Gotham-Book.woff": "/psychologist/static/media/Gotham-Book.0a97b0e648c82825c559.woff",
+    "static/media/Gotham-Light.woff": "/psychologist/static/media/Gotham-Light.40369050253eb1818110.woff",
+    "static/media/Gotham-Book.woff2": "/psychologist/static/media/Gotham-Book.2f62b850788c0c0d6adb.woff2",
+    "static/media/Gotham-Light.woff2": "/psychologist/static/media/Gotham-Light.7134741ca60a2642b0ff.woff2",
+    "static/media/service-line.svg": "/psychologist/static/media/service-line.a92b2e3940bcaaafff50.svg",
+    "index.html": "/psychologist/index.html",
+    "main.95cecfa1.css.map": "/psychologist/static/css/main.95cecfa1.css.map",
+    "main.2a71fdd5.js.map": "/psychologist/static/js/main.2a71fdd5.js.map",
+    "787.14a60a1d.chunk.js.map": "/psychologist/static/js/787.14a60a1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95cecfa1.css",
+    "static/js/main.2a71fdd5.js"
+  ]
+}
