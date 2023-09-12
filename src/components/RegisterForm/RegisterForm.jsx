@@ -2,7 +2,7 @@ import './RegisterForm.css';
 
 function RegisterForm() {
   return (
-    <div className='register-block'>
+    <div className='register-block' id='register-block'>
         <div className='register-block__card'>
           <h3 className='register-block__title'>Оставьте заявку</h3>
           <form action="#" className='register-block__form' id='register-form'>

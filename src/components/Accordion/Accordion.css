@@ -5,12 +5,9 @@
     border-bottom: 1px solid #151d35;
 }
 
-.accordion:first-child {
-    padding-top: 0;
-}
-
 .accordion_opened {
     background-color: #f9f2e4;
+    border-radius: 20px;
 }
 
 .accordion__card {

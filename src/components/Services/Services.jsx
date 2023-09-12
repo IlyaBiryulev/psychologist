@@ -6,7 +6,7 @@ import { ServicesData } from '../../utils/ServicesData';
 
 function Services() {
     return (
-    <div className='services'>
+    <div className='services' id='services'>
       <SectionMainTitle title={'Услуги и стоимость'}/>
       <div className='services__content'>
         {

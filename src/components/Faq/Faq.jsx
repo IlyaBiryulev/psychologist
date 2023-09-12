@@ -10,7 +10,7 @@ function Faq() {
     const [opened, setOpened] = useState(null);
 
     return (
-    <div className='faq'>
+    <div className='faq' id='faq'>
         <SectionMainTitle title={'FAQ'}/>
         <div className='faq__content'>
             <div className='faq__question'>*eсли остались вопросы, можете задать их в любой удобной для Вас социальной сети</div>

@@ -4,11 +4,13 @@
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    color: #526B4B;
 }
 
-.navtab__item {
-    cursor: pointer;
+.navtab__link {
+    text-decoration: none;
+    color: #526B4B;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 630px) {

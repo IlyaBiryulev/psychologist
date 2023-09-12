@@ -3,7 +3,7 @@ import SectionMainTitle from '../SectionMainTitle/SectionMainTitle';
 
 function Reviews() {
     return(
-        <div className='reviews'>
+        <div className='reviews' id='reviews'>
             <SectionMainTitle title={'Отзывы клиентов'} />
             <div className='reviews__card-wrapper'>
                 <div className='reviews__card'>
