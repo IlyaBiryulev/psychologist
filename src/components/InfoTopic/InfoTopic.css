@@ -50,6 +50,16 @@
     grid-area: 2 / 2 / 3 / 3;
 }
 
+@media screen and (max-width: 1172px) {
+    .info-topic__title {
+        font-size: 28px;
+    }
+    
+    .info-topic__text {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 813px) {
     .info-topic__list {
         column-gap: 20px;
@@ -57,11 +67,11 @@
     }
 
     .info-topic__title {
-        font-size: 28px;
+        font-size: 25px;
     }
     
     .info-topic__text {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 

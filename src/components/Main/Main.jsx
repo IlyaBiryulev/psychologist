@@ -1,4 +1,5 @@
 import './Main.css';
+import { useRef } from 'react';
 import Promo from '../Promo/Promo';
 import About from '../About/About';
 import InfoTopic from '../InfoTopic/InfoTopic';
@@ -8,15 +9,23 @@ import Reviews from '../Reviews/Reviews';
 import RegisterForm from '../RegisterForm/RegisterForm';
 
 function Main() {
+  const RegisterRef = useRef()
+
+  const handleClickRegisterBtn = () => {
+    RegisterRef.current.scrollIntoView({
+      behavior: 'smooth',
+      inline: 'start'
+    })
+  }
   return (
     <div className='main'>
-        <Promo />
+        <Promo onClick={handleClickRegisterBtn}/>
         <InfoTopic />
         <About />
         <Faq />
         <Services />
         <Reviews />
-        <RegisterForm />
+        <RegisterForm onRef={RegisterRef} />
     </div>
   );
 }

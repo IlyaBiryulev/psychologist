@@ -7,13 +7,12 @@ import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
 function Header() {
   const [ isOpened, setIsOpened ] = useState(false);
 
-  const handleOpenMenu = () => {
-    if(!isOpened) {
-      setIsOpened(true);
-    } else {
-      setIsOpened(false);
-    }
+  const handleOpenAndCloseMenu = () => {
+    setIsOpened(!isOpened);
   }
+/*   const handleCloseMenu = () => {
+    setIsOpened(false);
+  } */
 
   return (
     <div className='header'>
@@ -24,13 +23,13 @@ function Header() {
       <div className='header__social'>
         <SocialLinks />
       </div>
-      <HamburgerMenu isOpened={isOpened}/>
-      <div className='header__burger-btn'>
-          <input className="header__checkbox" type="checkbox" onClick={handleOpenMenu}/>
+      <HamburgerMenu isOpened={isOpened} onClick={handleOpenAndCloseMenu}/>
+      <div className='header__burger-btn' onClick={handleOpenAndCloseMenu}>
+          {/* <input className="header__checkbox" type="checkbox"/> */}
           <div className="header__burger-lines">
-            <span className="header__burger-line header__burger-line_first"></span>
-            <span className="header__burger-line header__burger-line_second"></span>
-            <span className="header__burger-line header__burger-line_third"></span>
+            <span className="header__burger-line"></span>
+            <span className="header__burger-line"></span>
+            <span className="header__burger-line"></span>
           </div>
         </div>
     </div>

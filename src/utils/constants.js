@@ -13,7 +13,7 @@ export const textAnim = {
 export const reviewsAnimLeft = {
     hidden: {
         opacity: 0,
-        x: '-100px',
+        x: '-10px',
     },
     visible: custom => ({
         opacity: 1,
@@ -25,7 +25,7 @@ export const reviewsAnimLeft = {
 export const reviewsAnimRight = {
     hidden: {
         opacity: 0,
-        x: '+100px',
+        x: '+10px',
     },
     visible: custom => ({
         opacity: 1,

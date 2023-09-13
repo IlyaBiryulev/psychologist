@@ -19,7 +19,7 @@
 }
 
 .hamburger-menu__container {
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
     width: 400px;
@@ -32,6 +32,41 @@
 
 .hamburger-menu__navtab {
     margin-top: 50px;
+}
+
+.hamburger-menu__cls-btn {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+  
+.hamburger-menu__cross-lines {
+    height: 26px;
+    width: 32px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.hamburger-menu__cross-line {
+    min-height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #526B4B;
+}
+
+.hamburger-menu__cross-line_first {
+    transform-origin: 0% 0%;
+    transform: rotate(45deg);
+}
+
+.hamburger-menu__cross-line_second {
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg);
 }
 
 @media screen and (max-width: 401px) {
