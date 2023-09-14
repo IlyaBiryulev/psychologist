@@ -1,4 +1,5 @@
 import './Accordion.css';
+import { motion } from 'framer-motion';
 
 
 function Accordion({item, opened, toggle}) {
@@ -9,7 +10,14 @@ function Accordion({item, opened, toggle}) {
             <div className={opened ? 'accordion__arrow accordion__arrow_opened' : 'accordion__arrow'}></div>
         </div>
         {opened && 
-            <div className='accordion__content'>{item.content1}</div>
+            <motion.p 
+              className='accordion__content'
+              initial={{ opacity: 0}}
+              animate={{ opacity: 1, transition: {duration: 0.5}}}
+              exit={{ opacity: 0}}
+            >
+              {item.content1}
+            </motion.p>
         }
     </article>
   );
