@@ -33,3 +33,7 @@ export const reviewsAnimRight = {
         transition: { delay: custom * 0.2, duration: 0.2 }
     })
 }
+
+export const SERVICE_ID = 'service_v21mzzg';
+export const TEMPLATE_ID = 'template_z195izq';
+export const USER_ID = 'rR_f1fQx1LJPQEPZY';

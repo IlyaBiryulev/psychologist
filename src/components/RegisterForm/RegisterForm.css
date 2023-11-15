@@ -32,16 +32,6 @@
     padding-top: 20px;
 }
 
-.register-block__input {
-    margin-bottom: 10px;
-    background-color: #fff;
-    border: 1px solid rgba(80, 80, 80, .4);
-    border-radius: 30px;
-    padding: 15px 10px;
-    width: 350px;
-    text-align: center;
-}
-
 .register-block__btn {
     margin-top: 20px;
     background-color: #526B4B;

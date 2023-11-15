@@ -49,10 +49,6 @@
 }
 
 @media screen and (max-width: 1167px) {
-    /* .promo {
-        background: linear-gradient(to right, #FBF8EF 60%, #526B4B 40%);
-    } */
-
     .promo__content {
         grid-template-columns: minmax(292px, 500px) 400px;
     }

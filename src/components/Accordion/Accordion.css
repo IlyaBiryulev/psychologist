@@ -13,6 +13,7 @@
 .accordion__card {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -22,8 +23,8 @@
 }
 
 .accordion__arrow {
-    width: 8px;
-    height: 8px;
+    min-width: 8px;
+    min-height: 8px;
     border-top: 2px solid #151d35;
     border-right: 2px solid #151d35;
     display: inline-block;

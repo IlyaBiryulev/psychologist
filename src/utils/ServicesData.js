@@ -5,7 +5,7 @@ export const ServicesData = [
         duration: 50,
         coast: 3500,
         format: 'онлайн',
-        place: 'WhatsApp / FaceTime',
+        place: 'WatsApp / FaceTime / GoogleMeet',
         description: 'С чем вы можете обратиться ко мне с переживаниями, эмоциями (гнев, страх, агрессия и др.), тревогами, межличностными отношениями, профессиональной и личностной самореализацией.'
     },
     {
@@ -23,7 +23,7 @@ export const ServicesData = [
         duration: 50,
         coast: 12000,
         format: 'онлайн',
-        place: 'WhatsApp / FaceTime',
+        place: 'WatsApp / FaceTime / GoogleMeet',
         description: 'С чем вы можете обратиться ко мне с переживаниями, эмоциями (гнев, страх, агрессия и др.), тревогами, межличностными отношениями, профессиональной и личностной самореализацией.'
     },
   ];
