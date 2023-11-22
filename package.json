@@ -1,7 +1,7 @@
 {
   "name": "psychologist",
   "version": "0.1.0",
-  "homepage": "https://ilyabiryulev.github.io/psychologist",
+  "homepage": "http://yuliatymoshenko.ru/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
