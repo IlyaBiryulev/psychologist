@@ -5,7 +5,7 @@
     margin: 20px 0;
     background-color: #FBF8EF;
     background-color: #FBF8EF;
-    color: #000;
+    color: #526B4B;
     border-radius: 10px;
 }
 
@@ -46,8 +46,8 @@
     background: transparent;
     padding: 4px 0;
     border: none;
-    border-bottom: 1px solid #000;
-    color: #000;
+    border-bottom: 1px solid #526B4B;
+    color: #526B4B;
     font-size: 14px;
     font-weight: 900; 
     cursor: pointer;

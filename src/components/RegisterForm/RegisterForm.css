@@ -29,7 +29,29 @@
 .register-block__form {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 15px;
+}
+
+.register-block__label {
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+
+.register-block__error {
+    display: none;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FF0000;
+    margin: 5px 0 7px;
+    opacity: 0;
+}
+
+.register-block__error_active {
+    display: block;
+    opacity: 1;
 }
 
 .register-block__btn {
@@ -40,6 +62,10 @@
     padding: 15px 10px;
     color: #FBF8EF;
     cursor: pointer;
+}
+
+.register-block__btn_disable {
+    background-color: gray;
 }
 
 @media screen and (max-width: 609px) {
