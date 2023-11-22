@@ -2,11 +2,10 @@ import './Faq.css';
 import { useState } from 'react';
 import { FaqData } from '../../utils/FaqData';
 import Photo from '../../image/DSCF9885.jpg';
-import Accordion from '../Accordion/Accordion';
-import SectionMainTitle from '../SectionMainTitle/SectionMainTitle';
+import Accordion from '../UI/Accordion/Accordion';
+import SectionMainTitle from '../UI/SectionMainTitle/SectionMainTitle';
 import { motion } from 'framer-motion';
 import { textAnim } from '../../utils/constants';
-
 
 function Faq() {
     const [opened, setOpened] = useState(null);
@@ -28,11 +27,20 @@ function Faq() {
             <motion.div className='faq_accordion' variants={textAnim} custom={2}>
                 {FaqData.map((item, i) => 
                     <Accordion 
-                        item={item}
+                        title={item.title}
                         key={item.id}
                         opened={i === opened}
                         toggle = {setOpened.bind(null, i === opened ? null : i)}
-                    />
+                    >
+                        <motion.p 
+                          className='accordion__content'
+                          initial={{ opacity: 0}}
+                          animate={{ opacity: 1, transition: {duration: 0.5}}}
+                          exit={{ opacity: 0}}
+                        >
+                          {item.content1}
+                        </motion.p>
+                    </Accordion>
                 )}
             </motion.div>
         </div>

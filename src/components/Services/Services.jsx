@@ -1,5 +1,5 @@
 import './Services.css';
-import SectionMainTitle from '../SectionMainTitle/SectionMainTitle';
+import SectionMainTitle from '../UI/SectionMainTitle/SectionMainTitle';
 import { MServicesItem } from '../ServicesItem/ServicesItem';
 import { ServicesData } from '../../utils/ServicesData';
 import { motion } from 'framer-motion';

@@ -1,23 +1,13 @@
 .diploma {
-    width: 100%;
-    padding-top: 40px;
-}
-
-.diploma__titile {
-    padding-bottom: 30px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+    padding: 50px 0;
 }
 
 .diploma__content {
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    justify-content: center;
-    column-gap: 10px;
-    row-gap: 10px;
-    position: relative;
-}
-
-.diploma__img {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
 }

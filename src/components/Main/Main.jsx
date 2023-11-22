@@ -4,6 +4,7 @@ import Promo from '../Promo/Promo';
 import About from '../About/About';
 import InfoTopic from '../InfoTopic/InfoTopic';
 import Faq from '../Faq/Faq';
+import Diploma from '../Diploma/Diploma';
 import Services from '../Services/Services';
 import Reviews from '../Reviews/Reviews';
 import RegisterForm from '../RegisterForm/RegisterForm';
@@ -23,6 +24,7 @@ function Main() {
         <InfoTopic />
         <About />
         <Faq />
+        <Diploma />
         <Services />
         <Reviews />
         <RegisterForm onRef={RegisterRef} />

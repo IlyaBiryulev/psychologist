@@ -1,5 +1,5 @@
 import './Reviews.css';
-import SectionMainTitle from '../SectionMainTitle/SectionMainTitle';
+import SectionMainTitle from '../UI/SectionMainTitle/SectionMainTitle';
 import { motion } from 'framer-motion';
 import { reviewsAnimLeft } from '../../utils/constants';
 import { reviewsAnimRight } from '../../utils/constants';

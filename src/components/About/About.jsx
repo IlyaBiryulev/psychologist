@@ -1,6 +1,6 @@
 import './About.css';
 import Photo from '../../image/DSCF9791.jpg';
-import SectionMainTitle from '../SectionMainTitle/SectionMainTitle';
+import SectionMainTitle from '../UI/SectionMainTitle/SectionMainTitle';
 import { motion } from 'framer-motion';
 import { textAnim } from '../../utils/constants';
 
