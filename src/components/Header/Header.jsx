@@ -10,9 +10,6 @@ function Header() {
   const handleOpenAndCloseMenu = () => {
     setIsOpened(!isOpened);
   }
-/*   const handleCloseMenu = () => {
-    setIsOpened(false);
-  } */
 
   return (
     <div className='header'>
@@ -25,7 +22,6 @@ function Header() {
       </div>
       <HamburgerMenu isOpened={isOpened} onClick={handleOpenAndCloseMenu}/>
       <div className='header__burger-btn' onClick={handleOpenAndCloseMenu}>
-          {/* <input className="header__checkbox" type="checkbox"/> */}
           <div className="header__burger-lines">
             <span className="header__burger-line"></span>
             <span className="header__burger-line"></span>

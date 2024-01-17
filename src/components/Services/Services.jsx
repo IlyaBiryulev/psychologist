@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { textAnim } from '../../utils/constants';
 
 
-function Services() {
+function Services({ onClick }) {
     return (
     <div 
       className='services' 
@@ -26,6 +26,7 @@ function Services() {
               custom={item.id}
               card={item}
               key={item.id}
+              onClick={onClick}
             />
           )
         }

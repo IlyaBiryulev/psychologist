@@ -23,7 +23,7 @@ function Diploma() {
         {DiplomData.map((item, i) =>
           <Accordion
             title={item.title}
-            key={item.id}
+            key={i}
             opened={i === opened}
             toggle = {setOpened.bind(null, i === opened ? null : i)}
           >

@@ -25,7 +25,7 @@ function Main() {
         <About />
         <Faq />
         <Diploma />
-        <Services />
+        <Services onClick={handleClickRegisterBtn}/>
         <Reviews />
         <RegisterForm onRef={RegisterRef} />
     </div>
