@@ -17,11 +17,11 @@
 }
 
 .faq__question {
-   text-align: justify;
-   font-size: 13px;
-   font-weight: 400;
-   line-height: 13px;
-   padding-top: 5px;
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    padding-top: 5px;
 }
 
 .faq__img {

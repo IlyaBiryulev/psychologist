@@ -42,7 +42,7 @@
     right: 20px;
     cursor: pointer;
 }
-  
+
 .hamburger-menu__cross-lines {
     height: 26px;
     width: 32px;
@@ -51,7 +51,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-  
+
 .hamburger-menu__cross-line {
     min-height: 4px;
     width: 100%;

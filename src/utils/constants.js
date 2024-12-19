@@ -6,7 +6,7 @@ export const textAnim = {
     visible: custom => ({
         opacity: 1,
         y: '0',
-        transition: { delay: custom * 0.2, duration: 0.8 }
+        transition: {delay: custom * 0.2, duration: 0.8}
     })
 }
 
@@ -18,7 +18,7 @@ export const reviewsAnimLeft = {
     visible: custom => ({
         opacity: 1,
         x: '0',
-        transition: { delay: custom * 0.2, duration: 0.2 }
+        transition: {delay: custom * 0.2, duration: 0.2}
     })
 }
 
@@ -30,7 +30,7 @@ export const reviewsAnimRight = {
     visible: custom => ({
         opacity: 1,
         x: '0',
-        transition: { delay: custom * 0.2, duration: 0.2 }
+        transition: {delay: custom * 0.2, duration: 0.2}
     })
 }
 

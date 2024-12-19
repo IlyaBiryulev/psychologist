@@ -49,7 +49,7 @@
     border-bottom: 1px solid #526B4B;
     color: #526B4B;
     font-size: 14px;
-    font-weight: 900; 
+    font-weight: 900;
     cursor: pointer;
 }
 
@@ -71,7 +71,7 @@
         font-size: 10px;
         font-weight: 400;
     }
-    
+
     .services-item__place {
         font-size: 10px;
         font-weight: 400;
@@ -80,7 +80,7 @@
     .services-item__enroll-btn {
         font-size: 12px;
     }
-    
+
     .services-item__coast {
         font-size: 14px;
         font-weight: 900;
@@ -100,7 +100,7 @@
         font-size: 9px;
         font-weight: 400;
     }
-    
+
     .services-item__place {
         font-size: 9px;
         font-weight: 400;
@@ -109,7 +109,7 @@
     .services-item__enroll-btn {
         font-size: 10px;
     }
-    
+
     .services-item__coast {
         font-size: 12px;
         font-weight: 900;

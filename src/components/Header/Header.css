@@ -15,7 +15,7 @@
     background-position: center;
     background-size: contain;
     margin-left: 20px;
-    margin-right: 35px;    
+    margin-right: 35px;
 }
 
 .header__burger-btn {
@@ -26,7 +26,7 @@
     right: 20px;
     cursor: pointer;
 }
-  
+
 .header__burger-lines {
     height: 26px;
     width: 32px;
@@ -34,7 +34,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-  
+
 .header__burger-line {
     display: none;
     height: 4px;
@@ -42,14 +42,14 @@
     border-radius: 10px;
     background-color: #526B4B;
 }
-  
+
 @media screen and (max-width: 630px) {
     .header {
         height: 50px;
     }
 
     .header__navbar {
-     display: none;
+        display: none;
     }
 
     .header__social {
@@ -59,12 +59,12 @@
     .header__burger-btn {
         display: block;
     }
-  
+
     .header__burger-btn .header__burger-lines {
-      display: flex;
+        display: flex;
     }
-  
+
     .header__burger-btn .header__burger-lines .header__burger-line {
-      display: block;
+        display: block;
     }
 }
