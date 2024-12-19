@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9504e1a6.css",
-    "main.js": "/static/js/main.81643265.js",
-    "static/js/787.14a60a1d.chunk.js": "/static/js/787.14a60a1d.chunk.js",
+    "main.css": "/static/css/main.bf997c43.css",
+    "main.js": "/static/js/main.4d495b69.js",
     "static/media/DSCF9791.jpg": "/static/media/DSCF9791.652626e87da19a4eb6c7.jpg",
     "static/media/DSCF9843.jpg": "/static/media/DSCF9843.faa74892d408ef059f76.jpg",
     "static/media/DSCF9885.jpg": "/static/media/DSCF9885.e911b2ab5d709290aac3.jpg",
@@ -17,15 +16,14 @@
     "static/media/Gotham-Light.woff": "/static/media/Gotham-Light.40369050253eb1818110.woff",
     "static/media/Gotham-Book.woff2": "/static/media/Gotham-Book.2f62b850788c0c0d6adb.woff2",
     "static/media/Gotham-Light.woff2": "/static/media/Gotham-Light.7134741ca60a2642b0ff.woff2",
-    "static/media/service-line.svg": "/static/media/service-line.e2b9ca99d504d380c7d7.svg",
+    "static/media/service-line.svg": "/static/media/service-line.d71e9224295a355670fb.svg",
     "index.html": "/index.html",
-    "static/media/close-.svg": "/static/media/close-.71614cf0d0c116dc05f2.svg",
-    "main.9504e1a6.css.map": "/static/css/main.9504e1a6.css.map",
-    "main.81643265.js.map": "/static/js/main.81643265.js.map",
-    "787.14a60a1d.chunk.js.map": "/static/js/787.14a60a1d.chunk.js.map"
+    "static/media/close-.svg": "/static/media/close-.3c8361db30e60ddf41ab.svg",
+    "main.bf997c43.css.map": "/static/css/main.bf997c43.css.map",
+    "main.4d495b69.js.map": "/static/js/main.4d495b69.js.map"
   },
   "entrypoints": [
-    "static/css/main.9504e1a6.css",
-    "static/js/main.81643265.js"
+    "static/css/main.bf997c43.css",
+    "static/js/main.4d495b69.js"
   ]
 }

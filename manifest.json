@@ -1,14 +1,15 @@
 {
-  "short_name": "Psychologist UT",
-  "name": "Psychologist UT",
+  "short_name": "Юлия Тимошенко",
+  "name": "Психолог Юлия Тимошенко | Консультации",
+  "description": "Ко мне вы можете обратиться с переживаниями и тревогами, с профессиональной и личностной самореализацией, с межличностными отношениями.",
+  "start_url": ".",
+  "display": "standalone",
   "icons": [
     {
       "src": "service-line.svg",
       "type": "image/svg"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
