@@ -1,8 +1,9 @@
 .services-item {
     display: grid;
-    grid-template-columns: repeat(2, minmax(min-content, 800px));
+    grid-template-columns: 1fr 1fr;
     padding: 20px 10px;
     margin: 20px 0;
+    width: 100%;
     background-color: #FBF8EF;
     background-color: #FBF8EF;
     color: #526B4B;
@@ -12,6 +13,9 @@
 .services-item__title {
     font-size: 22px;
     font-weight: 600;
+    flex: 1;
+    width: 100%;
+    max-width: 610px;
 }
 
 .services-item__list {
